@@ -8,7 +8,7 @@
     
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="/" class="brand-logo"><img src="<? echo $urlBase; ?>/img/logo.png" ></a>
+      <a id="logo-container" href="/" class="brand-logo"><img src="<? echo $urlBase; ?>/img/logo.png" style="max-width: 200px;" ></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/control/" style="font-family:SegundoStyle;">Panel</a></li>    
       </ul>
