@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteBase /
+
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://arnol.lamascota.co/$1 [R=301,L,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+
+RewriteRule ^historico_equipos/(.*)/(.*)/    /vista/historico_equipos.php?tipo_equipo=$1&dependencia_equipo=$2 [L,NC]
+
+RewriteRule ^entrar/$    /vista/control/login_control.php [L,NC]
+RewriteRule ^control/$    /vista/control/control.php [L,NC]
+RewriteRule ^control/pedidos/$    /vista/control/pedidos.php [L,NC]
+RewriteRule ^control/salir/$    /vista/salir.php [L,NC]
