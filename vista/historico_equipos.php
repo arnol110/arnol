@@ -224,7 +224,7 @@ json_encode($cargar_dependencia);
 <script src="<? echo $urlBase; ?>/js/materialize.js"></script>
 <script src="<? echo $urlBase; ?>/js/util.js"></script>
 <script src="<? echo $urlBase; ?>/js/init.js"></script>
-<script src="<? echo $urlBase; ?>/vista/control/control.js"></script>
+<script src="<? echo $urlBase; ?>/js/control.js"></script>
 
 
 
